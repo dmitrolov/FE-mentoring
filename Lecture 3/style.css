@@ -1,0 +1,9 @@
+.code {
+    color: green
+}
+.open::before {
+    content: '<';
+}
+.open::after {
+    content: '>';
+}
