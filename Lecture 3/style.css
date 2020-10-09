@@ -7,3 +7,12 @@
 .open::after {
     content: '>';
 }
+.closed::before {
+    content: '</';
+}
+.closed::after {
+    content: '>';
+}
+.open, .closed {
+    border: 1px solid black;
+}

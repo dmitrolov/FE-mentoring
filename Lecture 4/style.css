@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: green;
+}
+
+.test1,
+#a1 {
+    background-color: black;
+    width: 50%;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.test2 {
+    color: yellow;
+}
+
+* {
+    border: 1px solid red;
+}
+.test1 #a1 {
+    background-color: gray;
+    width: 50%;
+    padding: 0;
+    border: 1px solid black;
+}
+
+div.diagram#a2 {
+    background-color: white;
+}
+.diagram {
+    width: 1em;
+    height: 1em;
+    background-color: orange !important;
+}
